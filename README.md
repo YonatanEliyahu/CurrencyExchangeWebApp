@@ -34,8 +34,6 @@ To use the Currency Exchange web app, follow these steps:
 
 ## Authors
 
-- [Your Name]
+- Yonatan Eliyahu
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
