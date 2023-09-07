@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>usd currency exchange</title>
+        <script src="currency.js"> </script>
+        <link rel="stylesheet" type="text/css" href="currency.css">
+    </head>
+    <body>
+        <div class="centered-div">
+            <h1>Currency Exchange</h1>
+            <form>
+                <select class="form-prop" id="currency" disabled style="width: 97px;">
+                    <option id="defaultcurrency" value="" disabled selected>loading currencies...</option>
+                    <option data-rate="0" id="EUR" value="EUR">EUR</option>
+                    <option data-rate="0" id="AED" value="AED">AED</option>
+                </select>
+                <input class="form-prop" id="rate" type="number" value='0.0000' placeholder='0.0000' readonly ></input><br>
+                <label class="form-prop" for="USDAmount">USD Amount:</label>
+                <input class="form-prop" id="USDAmount" type="number" value=0 style ="margin-left: 5px;"></input>
+                <label>
+                    <input type="radio" name="usdDirection" value="fromUSD" id="fromUSD" checked disabled> From USD
+                </label>
+
+                <br><label id="exchangeAmountlabel" class="form-prop" for="exchangeAmount" >Exchange Amount:</label> 
+                <input class="form-prop"  id="exchangeAmount" type="number" value=0 style ="margin-left: 5px;" readonly></input>
+                <label>
+                    <input type="radio" name="usdDirection" value="toUSD" id="toUSD" disabled> To USD
+                </label>
+                <br><input class="form-prop" id="submit" type="submit" disabled>
+            </form>
+        </div>
+    </body>
+</html>

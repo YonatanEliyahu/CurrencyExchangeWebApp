@@ -1,0 +1,16 @@
+.centered-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    text-align: left;
+    padding: 20px;
+}
+.form-prop{
+    margin-bottom: 4px;
+    margin-top: 4px;   
+}
+
+
